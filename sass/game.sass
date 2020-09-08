@@ -1,0 +1,266 @@
+*
+	box-sizing: border-box
+	font-family: 'Baloo Tamma 2', cursive
+	
+
+
+.navegation
+	background: #684B70
+	padding: 1.4em
+	position: fixed
+	width: 100%
+	top: 0
+	text-align: center
+	a
+		text-decoration: none
+		color: #fff
+		text-transform: uppercase
+
+body
+	background: url("../hof_bg.png")
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
+	background-attachment: fixed
+	.main-container
+		background: #fff
+		width: 80%
+		max-width: 1200px
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+		margin: auto
+		margin-top: 1.7em
+
+header
+	display: flex
+	width: 100%
+	justify-content: space-between
+	flex-wrap: wrap
+	margin: auto
+	background: #E1A2F2
+	margin-top: 2.5em
+
+	.game-info
+		display: flex
+		width: 100%
+		flex-wrap: wrap
+		justify-content: space-between
+		margin: auto
+		margin-top: -3em
+		padding: 0 1em 0.2em 1em
+		font-size: 1em
+		font-weight: 500
+
+
+	.banner
+		width: 100%
+
+		height: 19em
+		max-height: 25em
+		overflow: hidden
+		text-align: center
+		display: flex
+		border-radius: 1em 1em 0 0
+		margin-top: -1em
+
+		img
+			width: 100%
+		.game-name
+			font-size: 2rem
+			margin: auto
+			color: #fff
+			background: rgba(#37528F, 0.5)
+			width: 100%
+			line-height: 0.9em
+			h2
+				font-size: 1em
+	.photo
+		width: 100%
+		text-align: center
+		margin-top: -4em
+		img
+			padding: 0 0 0 2px
+			margin: auto
+			border-radius: 50px
+			border: 3px solid rgba(0,0,0,0.8)
+			background: #fff
+
+.game-about
+	display: flex
+	width: 90%
+	justify-content: space-between
+	flex-wrap: wrap
+	margin: auto
+	padding-top: 1em
+	margin-bottom: 2em
+	a
+		display: block
+		border-radius: 3px
+		font-size: 2.5em
+	.itch
+		color: #dd5143
+	.github
+		color: #4078c0
+	.game-summary
+		font-weight: 500
+		font-size: 1.2em
+		a
+			font-weight: bold
+			color: #684B70
+			font-size: 1em
+			display: inline
+			&:hover
+				color: #E1A2F2
+				text-decoration: none
+	.links
+		a
+			display: inline
+
+footer 
+	width: 100%
+	.social-media
+		background: #684B70
+		padding: 20px 0
+		a
+			color: #fff
+			text-align: center
+			width: 100px
+			display: block
+			padding: 15px 0
+			border-radius: 3px
+			font-size: 30px
+			margin: 0 20px
+		.twitter
+			&:hover
+				background: #1da1f2
+		.github
+			&:hover
+				background: #4078c0
+		.linkedin
+			&:hover
+				background: #0077b5
+		.itch
+			&:hover
+				background: #dd5143
+
+	.container
+		display: flex
+		justify-content: center
+.design
+	width: 100%
+	background: #E1DCF2
+	text-align: center
+	padding: 1em 2em 1em 0.7em
+	h2
+		width: 100%
+		font-size: 2em
+		color: #684B70
+	.game-section
+		padding: 1em
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+		width: 100%
+		margin: auto
+		align-items: center
+		img
+			width: 30%
+			border-radius: 1em
+		.game-section-text
+			padding: 0 0 0 2em
+			text-align: left
+			width: 65%
+			p 
+				font-size: 1.1em
+	.my-work
+		padding: 0 3em 0 3em
+		a
+			font-weight: bold
+			color: #684B70
+			&:hover
+				color: #E1A2F2
+				text-decoration: none
+
+.programming
+	background: #F0E9F2
+
+
+
+@media screen and (max-width: 800px)
+	body
+		.main-container
+			width: 100%
+	header
+		.banner
+			border-radius: 0
+
+@media screen and (max-width: 1200px)
+	header
+		.photo
+			width: 100%
+			text-align: center
+			margin-top: -4em
+			img
+				padding: 0 0 0 2px
+				margin: auto
+				border-radius: 50px
+				border: 3px solid rgba(0,0,0,0.8)
+				background: #fff
+				width: 5em
+				height: 5em
+
+		.game-info
+			display: flex
+			width: 100%
+			flex-wrap: wrap
+			justify-content: space-between
+			margin: auto
+			margin-top: 0
+			padding: 0 1em 0.2em 1em
+			font-size: 0.9em
+			font-weight: 400
+			text-align: center
+
+@media screen and (max-width: 1000px)
+	header
+		.photo
+			img
+				width: 5em
+				height: 5em
+		.banner
+			.my-name
+				h1
+					font-size: 3rem
+				h2
+					font-size: 2rem
+	body
+		.main-container
+			width: 100%
+		.game-about
+			padding: 1em 1em 1em 1em
+			text-align: justify
+		.design
+			padding: 0 1em 1em 1em
+			text-align: justify
+			.my-work
+				padding: 0 1em 0 1em
+				a
+					font-weight: bold
+					color: #684B70
+					&:hover
+						color: #E1A2F2
+						text-decoration: none
+			.game-section
+				img
+					width: 100%
+				.game-section-text
+					padding: 0
+					width: 100%
+		.programming
+			padding: 0 1em 1em 1em
+			text-align: justify
+
+
+
+

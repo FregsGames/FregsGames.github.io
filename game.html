@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Nacho Alfonso - Hell Of Fame</title>
+	<link href="fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/game.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="navegation">
+		<nav>
+			<a href="index.html">Inicio</a>
+		</nav>
+	</div>
+
+	<div class = "main-container">
+		<header>
+			<div class="banner" style = "background: url('hof_banner.png'); background-repeat: no-repeat;
+				background-size: cover; background-position: center; back">
+				<div class ="game-name">
+					<h1 >Hell Of Fame</h1>
+					<h2>Diseñador y programador</h2>
+				</div>
+			</div>
+			<div class="photo">
+				<img src="ue4.png" width="110" height="110" alt="Nacho">
+			</div>
+			<div class="game-info">
+				<p>Fecha: 10/10/20</p>
+				<p>Plataforma: PC</p>
+				<p>Género: Arcade/Acción</p>
+				<p>Engine: Unreal</p>
+			</div>
+		</header>
+
+		<section class = "game-about">
+			
+			<div class="links">
+				<a href="https://broken-frame.itch.io/hell-of-fame-game" class="itch"><i class="fab fa-itch-io"></i></a>
+
+				<!-- <a href="https://github.com/FregsGames/TinyStrifes" class="github"><i class="fab fa-github"></i></a> -->
+			</div>
+			
+			<section class = "game-summary">
+				<p>Hell Of Fame es un juego de acción en el que manejamos a William Von Famous en su intento de huir desesperadamente de sus fans. Mi trabajo en Hell Of Fame fue principalmente el de diseñador y programador aunque toqué muchos ámbitos durante el desarrollo, como VFXs o sonido.</p>
+			</section>
+
+
+		</section>
+
+		<section class = "design">
+			<h2>Diseño</h2>
+			<section class = "my-work">
+				<p>Junto a mi compañero <a href= "http://carlosperezsanchez.com/">Carlos</a> me encargué de muchos aspectos del desarrollo de Hell Of Fame: documentación, diseño de niveles, diseño de mecánicas, prototipado, integración del trabajo de otros departamentos, programación, cinemáticas... </p>
+			</section>
+			<div class = "game-section">
+				<div class = "game-section-text">
+					<h3>Las mecánicas</h3>
+					<p>William Von Famous cuenta con tres habilidades básicas: <b>el selfie, el empujón y lanzar su ropa</b>. El selfie actúa como habilidad "letal", elimina completamente a tus fans, el empujón te permite abrirte paso entre ellos y la ropa los distrae mientras huyes.
+
+					<br><br>Estas tres habilidades <b>se retroalimentan unas a otras</b> para evitar el uso excesivo de una sola de ellas. De esta forma empujar a tus fans te proporciona "recargas" para tu selfie y eliminar a fans con el selfie te puede dar piezas de ropa.</p>
+				</div>
+				<img src="hof_selfie.png" alt="Nacho">
+			</div>
+			<div class = "game-section">
+				<div class = "game-section-text">
+					<h3>El escenario</h3>
+					<p>Hell Of Fame se desarrolla en la ciudad de <b>Famewood</b>. Un sitio donde la gente ha perdido completamente la cabeza por William y no dudan en perseguirlo en cuanto lo ven.
+
+						<br><br>Famewood tiene una buena cantidad de zonas diferenciadas: <b>plazas, piscinas, estadio de fútbol e incluso zonas inundadas</b>. Todas ellas pensadas para dar variadad a las situaciones a las que se enfrenta el jugador. </p>
+				</div>
+				<img src="hof_fame.png" alt="Nacho">
+			</div>
+			<div class = "game-section">
+				<div class = "game-section-text">
+					<h3>Los fans</h3>
+					<p>Los fans de William son también sus enemigos, se lanzan a por él en cuanto tienen la oportunidad. William se agobia fácilmente cuando tiene muchos fans cerca.<br><br> El <b>agobio es el equivalente a la vida</b> de William. Los fans dentro de su <b>zona de confort </b>lo aumentan y, pasado cierto punto, William se desmaya. Los fans cuentan con un sistema de cálculo de ruta que hace que intenten cerrarle el paso al jugador en todo momento.</p> 
+				</div>
+				<img src="hof_fans.png" alt="Nacho">
+			</div>
+		</section>
+		<section class = "design programming">
+			<h2>Programación</h2>
+			<section class = "my-work">
+				<p>Una buena parte de la programación de Hell Of Fame corrió de mi parte. Elementos de la ciudad, funcionalidades del personaje, eventos... Casi todo implementado con el sistema de blueprints de Unreal.</p> 
+			</section>
+			<div class = "game-section">
+				<div class = "game-section-text">
+					<h3>William</h3>
+					<p>Las múltiples habilidades de William fueron programadas en blueprint y permanecieron así en la versión final del juego. <b>El empujón/dash</b> fue una de las más interesantes que implementé, pues nuestro personaje no podía ser impulsado con físicas, por lo que el movimiento tuvo que realizarse "manualmente" teniendo en cuenta las posibles excepciones y bloqueos que pudiera encontrarse por el camino.</p>
+				</div>
+				<img src="hof_pr1.png" alt="Nacho">
+			</div>
+			<div class = "game-section">
+				<div class = "game-section-text">
+					<h3>La cámara</h3>
+					<p>De las partes más duras sin duda. La cámara es muy propensa a bugs y a quejas de los jugadores durante el playtesting. <b>El prototipado, implementación y pulido de la cámara llevó varias semanas</b>. Su implementación final en blueprints puede ser algo tosca pero el resultado satisfizo a los jugadores y conseguí corregir todos los bugs que tenía.</p>
+				</div>
+				<img src="hof_pr2.png" alt="Nacho">
+			</div>
+			<div class = "game-section">
+				<div class = "game-section-text">
+					<h3>La ciudad viva</h3>
+					<p>Ascensores, tirolinas, patinetes, eventos... De nuevo, junto con <a href= "http://carlosperezsanchez.com/">Carlos</a> diseñé e implementé todos estos elementos de la ciudad.</p>
+				</div>
+				<img src="hof_pr3.png" alt="Nacho">
+			</div>
+
+		</section>
+		<footer>
+			<section class="social-media">
+				<div class="container">
+					<a href="https://twitter.com/nacho13t" class="twitter"><i class="fab fa-twitter"></i></a>
+					<a href="https://github.com/FregsGames" class="github"><i class="fab fa-github"></i></a>
+					<a href="https://fregs-games.itch.io/" class="itch"><i class="fab fa-itch-io"></i></a>
+					<a href="https://www.linkedin.com/in/ignacio-alfonso-brito-a11911147" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+			</section>
+		</footer>
+	</div>
+
+</body>
+</html>
