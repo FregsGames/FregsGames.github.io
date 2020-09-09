@@ -63,15 +63,16 @@ header {
     header .banner img {
       width: 100%; }
     header .banner .my-name {
-      font-size: 2vw;
       margin: auto;
       color: #fff;
       background: rgba(55, 82, 143, 0.5);
       width: 100%;
       line-height: 0.9em; }
       header .banner .my-name h2 {
+        width: 100%;
         font-size: 2rem; }
       header .banner .my-name h1 {
+        width: 100%;
         font-size: 3rem; }
   header .photo {
     width: 100%;
