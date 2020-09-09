@@ -46,7 +46,7 @@ header {
     margin: auto;
     margin-top: -3em;
     padding: 0 1em 0.2em 1em;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 500; }
   header .banner {
     width: 100%;
@@ -64,10 +64,13 @@ header {
       margin: auto;
       color: #fff;
       background: rgba(55, 82, 143, 0.5);
-      width: 100%;
-      line-height: 0.9em; }
+      width: 100%; }
       header .banner .game-name h2 {
-        font-size: 1em; }
+        width: 100%;
+        font-size: 2rem; }
+      header .banner .game-name h1 {
+        width: 100%;
+        font-size: 3rem; }
   header .photo {
     width: 100%;
     text-align: center;
@@ -90,18 +93,18 @@ header {
   .game-about a {
     display: block;
     border-radius: 3px;
-    font-size: 2.5em; }
+    font-size: 2.5rem; }
   .game-about .itch {
     color: #dd5143; }
   .game-about .github {
     color: #4078c0; }
   .game-about .game-summary {
     font-weight: 500;
-    font-size: 1.2em; }
+    font-size: 1.2rem; }
     .game-about .game-summary a {
       font-weight: bold;
       color: #684B70;
-      font-size: 1em;
+      font-size: 1rem;
       display: inline; }
       .game-about .game-summary a:hover {
         color: #E1A2F2;
@@ -121,7 +124,7 @@ footer {
       display: block;
       padding: 15px 0;
       border-radius: 3px;
-      font-size: 30px;
+      font-size: 1.5rem;
       margin: 0 20px; }
     footer .social-media .twitter:hover {
       background: #1da1f2; }
@@ -142,7 +145,7 @@ footer {
   padding: 1em 2em 1em 0.7em; }
   .design h2 {
     width: 100%;
-    font-size: 2em;
+    font-size: 2rem;
     color: #684B70; }
   .design .game-section {
     padding: 1em;
@@ -160,7 +163,7 @@ footer {
       text-align: left;
       width: 65%; }
       .design .game-section .game-section-text p {
-        font-size: 1.1em; }
+        font-size: 1.1rem; }
   .design .my-work {
     padding: 0 3em 0 3em; }
     .design .my-work a {
@@ -200,7 +203,7 @@ footer {
     margin: auto;
     margin-top: 0;
     padding: 0 1em 0.2em 1em;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     font-weight: 400;
     text-align: center; } }
 @media screen and (max-width: 1000px) {
