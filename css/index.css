@@ -63,14 +63,14 @@ header {
     header .banner img {
       width: 100%; }
     header .banner .my-name {
-      font-size: 2rem;
+      font-size: 2vw;
       margin: auto;
       color: #fff;
       background: rgba(55, 82, 143, 0.5);
       width: 100%;
       line-height: 0.9em; }
       header .banner .my-name h2 {
-        font-size: 1em; }
+        font-size: 2vw; }
   header .photo {
     width: 100%;
     text-align: center;
@@ -107,7 +107,7 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 1em;
-    font-size: 2rem; }
+    font-size: 2vw; }
 
 .game {
   display: flex;
@@ -115,6 +115,8 @@ body {
   flex-wrap: wrap; }
   .game .game-left {
     width: 59%; }
+    .game .game-left p {
+      font-size: 1.5rem; }
     .game .game-left div {
       width: 100%;
       text-align: center; }
