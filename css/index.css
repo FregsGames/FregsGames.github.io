@@ -31,7 +31,7 @@ header {
     margin: auto;
     margin-top: -3em;
     padding: 0 1em 0.2em 1em;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 500; }
   header .my-links {
     width: 100%;
@@ -47,7 +47,7 @@ header {
       color: #4078c0; }
     header .my-links .game-summary {
       font-weight: 500;
-      font-size: 1.2em; }
+      font-size: 2rem; }
   header .banner {
     width: 100%;
     background-repeat: no-repeat;
@@ -70,7 +70,9 @@ header {
       width: 100%;
       line-height: 0.9em; }
       header .banner .my-name h2 {
-        font-size: 2vw; }
+        font-size: 2rem; }
+      header .banner .my-name h1 {
+        font-size: 3rem; }
   header .photo {
     width: 100%;
     text-align: center;
@@ -107,7 +109,7 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 1em;
-    font-size: 2vw; }
+    font-size: 2rem; }
 
 .game {
   display: flex;
@@ -116,7 +118,7 @@ body {
   .game .game-left {
     width: 59%; }
     .game .game-left p {
-      font-size: 1.5rem; }
+      font-size: 1.2rem; }
     .game .game-left div {
       width: 100%;
       text-align: center; }
@@ -152,7 +154,7 @@ body {
     padding: 0;
     display: block;
     border-radius: 3px;
-    font-size: 2.5em; }
+    font-size: 2.5rem; }
   .in-developement .game-left .itch {
     color: #dd5143; }
   .in-developement img {
@@ -173,7 +175,7 @@ body {
     padding: 0;
     display: block;
     border-radius: 3px;
-    font-size: 2.5em; }
+    font-size: 2.5rem; }
   .game-jams .game-left .itch {
     color: #dd5143; }
   .game-jams img {
@@ -191,19 +193,20 @@ body {
   margin: auto;
   margin-top: 1em; }
   .game-about h2 {
+    font-size: 2rem;
     width: 100%;
     text-align: center; }
   .game-about a {
     display: block;
     border-radius: 3px;
-    font-size: 2.5em; }
+    font-size: 2.5rem; }
   .game-about .itch {
     color: #dd5143; }
   .game-about .github {
     color: #4078c0; }
   .game-about .game-summary {
     font-weight: 500;
-    font-size: 1.2em; }
+    font-size: 1.5rem; }
   .game-about .links a {
     display: inline; }
 
@@ -235,7 +238,7 @@ body {
         padding: 0;
         display: block;
         border-radius: 3px;
-        font-size: 2.5em; }
+        font-size: 2.5rem; }
       .column-container .other-column .game-resume .itch {
         color: #dd5143; }
     .column-container .other-column .game-logo {
@@ -306,7 +309,7 @@ footer {
     margin: auto;
     margin-top: 0;
     padding: 0 1em 0.2em 1em;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     font-weight: 400;
     text-align: center; } }
 @media screen and (max-width: 1000px) {
@@ -330,11 +333,11 @@ footer {
         text-align: center;
         margin-bottom: 1em; }
     .game iframe {
-      width: 60%;
+      width: 100%;
       height: 16em;
       margin: auto; }
     .game img {
-      width: 60%;
+      width: 100%;
       margin: auto; }
     .game hr {
       margin-top: 1rem; }
