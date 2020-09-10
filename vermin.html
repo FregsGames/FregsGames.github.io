@@ -29,7 +29,7 @@
 				<img src="unity.svg" width="110" height="110" alt="Nacho" style ="padding: 0 0.3em 0 0">
 			</div>
 			<div class="game-info">
-				<p>Fecha: 07/06/19</p>
+				<p>Fecha: Junio 2019</p>
 				<p>Plataforma: Android, PC</p>
 				<p>Género: Arcade</p>
 				<p>Engine: Unity</p>
@@ -39,13 +39,13 @@
 		<section class = "game-about">
 			
 			<div class="links">
-				<a href="https://fregs-games.itch.io/marketpunk" class="itch"><i class="fab fa-itch-io"></i></a>
-				<a href="https://play.google.com/store/apps/details?id=com.Fregs.VerminForever" class="itch"><i class="fab fa-itch-io"></i></a>
+				<a href="https://fregs-games.itch.io/vermin-defense" class="itch"><i class="fab fa-itch-io"></i></a>
+				<a href="https://play.google.com/store/apps/details?id=com.Fregs.VerminForever" class="google-play"><i class="fab fa-google-play"></i></a>
 				<!-- <a href="https://github.com/FregsGames/TinyStrifes" class="github"><i class="fab fa-github"></i></a> -->
 			</div>
 			
 			<section class = "game-summary">
-				<p>Marketpunk es un juego en primera persona en el que juegas como reponedor de supermercado. Compré los assets en un Bundle de Humble Bundle y la música la hizo mi amigo <a class = "highlight" href= "https://twitter.com/Dr_Dulittle">Dailos</a>.</p>
+				<p>Vermin Forever es mi primer juego en solitario, me encargué de todos los aspectos del juego: arte, programación, música, diseño, publicación etc... Todo ello en Unity. Más tarde creé una versión para PC, publicada en itch.io que incluye un modo defensa de torres. </p>
 			</section>
 
 
@@ -54,67 +54,60 @@
 		<section class = "design">
 			<h2>Diseño</h2>
 			<section class = "my-work">
-				<p>Con Marketpunk tenía ganas de crear un juego de estilo Roguelike como Slay The Spire. No hubo ninguna mazmorra ni enemigos al final pero sí un sistema de mejoras aleatorias y un gameplay por rondas/oleadas.  </p>
+				<p>La idea era hacer un juego en unas pocas semanas pero que pudiera jugarse durante mucho tiempo, en partidas cortas. Mi inspiración, aunque tiene poco en común, fue Super Hexagon.</p>
 			</section>
 			<div class = "game-section">
 				<div class = "game-section-text">
 					<h3>Las mecánicas</h3>
-					<p>Marketpunk tiene una mecánica principal simple: <b>coger objetos con click izquierdo y soltarlos (o lanzarlos) con el derecho</b>. Con esto nuestro objetivo es llevar los productos desde el muelle de carga hasta las estanterías para que los clientes puedan cogerlos.
+					<p>El juego consiste en aguantar el máximo tiempo posible. Los enemigos se aproximarán desde los extremos de la pantalla y, si entran en contacto con el personaje, le quitarán una vida.
 
-					<br><br>El juego termina cuando tu barra de trabajo se reduce a 0. <b>Pierdes puntos cuando un cliente no encuentra el producto que busca </b>(porque no lo has respuesto a tiempo). La cantidad de clientes, productos que demandan y su velocidad aumenta en cada ronda. Un cliente satisfecho aumenta tu barra de trabajo, por lo que puedes recuperar el "prestigio" perdido.</p>
+					<br><br>El juego se controla sosteniendo el teléfono móvil a modo de gamepad, teniendo el joystick en la parte izquierda y disparando haciendo "tap" en la parte derecha, aunque es posible usar el control alternativo con el acelerómetro.</p>
 				</div>
-				<img src="mk1.png" alt="Nacho">
+				<img src="vm1.png" alt="Nacho">
 			</div>
 			<div class = "game-section">
 				<div class = "game-section-text">
-					<h3>El supermecado</h3>
-					<p>El supermercado de Marketpunk tiene un estilo bastante clásico a pesar de ubicarse en una ciudad cyberpunk. Hay estanterías de madera y aluminio y mesas donde se expone la fruta, no obstante los clientes pertencenen a razas muy variadas.
+					<h3>Enemigos</h3>
+					<p>Hay varios tipos de enemigos dividos en dos clases principales: normales y jefes. Los enemigos normales salen sin parar durante la partida y van cambiando a medida que avanzamos. 
 
-						<br><br><b>El edificio se divide en dos salas</b>, una donde están todas las estanterías con productos, por la que pasean los clientes y otra que está conectada al muelle de carga. <b>Desde esta segunda sala podemos solicitar nuevos suministros</b>, que tardán unos segundos en llegar, una vez cerrada la puerta del garaje.</p>
+						<br><br> Los jefes salen tras cierto tiempo, solo uno a la vez (aunque a partir de un momento muy avanzado de la partida saldrán sin parar), y tienen características que los distinguen de los enemigos normales. Algunos disparan, suelen tener más de una vida, son más grandes, etc... </p>
 				</div>
-				<img src="mk2.png" alt="Nacho">
+				<img src="vm3.png" alt="Nacho">
 			</div>
 			<div class = "game-section">
 				<div class = "game-section-text">
-					<h3>Las mejoras</h3>
-					<p>Hay diversas <b>mejoras que amplian nuestras capacidades</b>, tenemos un dash, la posibilidad de teletransportar los objetos directamente hasta su sitio correspondiente o un aumento de velocidad de movimiento.
-
-						<br><br>Existe un dron que repone de manera autónoma los productos del muelle de carga o los que caen al suelo. También es posible comprar drones temporales en la máquina expendora.</p> 
+					<h3>Consumibles</h3>
+					<p>Durante la partida puedes ir obteniendo monedas, que pueden aparecer al destruir enemigos. Con estas monedas podemos comprar consumibles, que nos ayudarán en la partida. Hay una bomba que elimina a los enemigos activos (o quita una vida a los jefes), una torreta que dispara sola durante un tiempo y un escudo protector.</p> 
 				</div>
-				<img src="mk4.png" alt="Nacho">
+				<img src="vm5.png" alt="Nacho">
+			</div>
+			<div class = "game-section">
+				<div class = "game-section-text">
+					<h3>El escenario</h3>
+					<p>Aparte de el cambio de enemigos durante la partida también cambia el escenario. Aparecerán obstáculos, lásers que nos hacen daño o ralentizaciones. </p> 
+				</div>
+				<img src="vm4.png" alt="Nacho">
 			</div>
 		</section>
 		<section class = "design programming">
 			<h2>Programación</h2>
 			<section class = "my-work">
-				<p>La programación de Marketpunk está íntegramente realizada con Blueprints. El sistema de pathfinding, las animaciones, los generadores de clientes, etc... </p> 
+				<p>Desarrollé el juego en Unity, por lo que usé C# como lenguaje de programación.</p> 
 			</section>
 			<div class = "game-section">
 				<div class = "game-section-text">
-					<h3>Los clientes</h3>
-					<p>Los clientes de Marketpunk se mueven con el sistema de <b>pathfinding y navegación de Unreal</b>. Siguen un recorrido basado en una selección aleatoria de productos que se genera cuando son creados en la entrada del supermercado, y al llegar a la estantería que contiene dicho producto y divagan un rato hasta que intentan cogerlo.
-					<br><br>
-					El dron reponedor sigue una lógica similar para dirigirse a los productos sin colocar y, posteriormente, a la estanterías correspondientes.</p>
+					<h3>Generación de enemigos</h3>
+					<p>El generador de enemigos usa información del game manager para comprobar la ronda en la que nos encontramos y generar un enemigo en concreto (los enemigos varían su color/estilo y velocidad dependiendo del estado de la partida)
+						<br><br> De igual manera, cada cierto tiempo se genera un jefe. Los puntos de generación están fuera de la pantalla, por lo que los enemigos pueden atraverar dichos límites para llegar al jugador (se mueven siempre en línea recta hacía el personaje), pero el jugador no puede salir de la pantalla.</p>
 				</div>
-				<img src="mk6.png" alt="Nacho">
+				<img src="vm2.png" alt="Nacho">
 			</div>
 			<div class = "game-section">
 				<div class = "game-section-text">
-					<h3>Los productos</h3>
-					<p>Hay <b>diez tipos de productos diferentes</b> en Marketpunk. Cada uno tiene asignado su estantería o espacio en la tienda. Cada uno de ellos es un enum, que es creado dinámicamente con su mesh correspondiente cuando son generados por el sistema de suministros. Además cuentan con un sistemad de físicas para que el jugador pueda lanzarlos desde lejos a los clientes o a la estantería.
-					<br><br>
-					Como detalle de diseño, <b>cuando lanzamos un producto y choca por primera vez, se reduce su velocidad total a cero</b>, haciendo que el rebote sea muy débil. Con esto se puede acertar a colocar productos en su sitio desde muy lejos porque se sabe que no va a rebotar demasiado. Además, los productos que no están colocados donde corresponde brillan y tienen un outline que se ve a través de otros objetos, por lo que es más fácil localizarlos.</p>
+					<h3>Eventos del escenario</h3>
+					<p>Durante la partida se producen eventos al superar cierto tiempo, por ejemplo aparecen obstáculos o se genera un láser que nos hace daño. Cada uno de estos eventos es un prefab que simplemente se instancia durante la partida cuando es necesario.</p>
 				</div>
-				<img src="mk5.png" alt="Nacho">
-			</div>
-			<div class = "game-section">
-				<div class = "game-section-text">
-					<h3>El muelle de carga</h3>
-					<p>El muelle de carga es nuestro centro de operaciones. Desde él solicitamos nuevos productos, pulsando el botón junto a la pantalla. Pantalla desde la cual podemos monitorizar la cantidad de productos restantes en cada estantería
-					<br><br>
-					Además hay una máquina expendedora donde podemos comprar consumibles, como una "poción" que recupera nuestra barra de trabajo o un dron temporal. Estos dos sistemas cuentan con su UI, hecha con <b> UMG de Unreal </b>.</p>
-				</div>
-				<img src="mk3.png" alt="Nacho">
+				<img src="vm4.png" alt="Nacho">
 			</div>
 
 		</section>
