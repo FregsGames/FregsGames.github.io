@@ -132,6 +132,9 @@ body {
       display: inline-block; }
   .game iframe {
     width: 39%; }
+  .game img{
+    width: 39%;
+  }
   .game .bold {
     font-weight: 700;
     color: #684B70; }
